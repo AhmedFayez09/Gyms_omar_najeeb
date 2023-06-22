@@ -1,0 +1,65 @@
+name: gyms
+description: Gym App
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  bloc: ^8.1.0
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+  device_preview: ^1.1.0
+  dio: ^5.1.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_screenutil: null
+  flutter_svg: 1.1.5
+  fluttertoast: ^8.2.1
+  geolocator: null
+  google_fonts: ^4.0.4
+  lottie: null
+  page_transition: ^2.0.9
+  permission_handler: null
+  quickalert: ^1.0.1
+  shared_preferences: ^2.0.16
+  url_launcher: ^6.1.11
+  webview_flutter: ^4.2.2
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Gill Sans
+      fonts:
+        - asset: assets/fonts/GillSans/Gill Sans.otf
+        - asset: assets/fonts/GillSans/Gill Sans Bold.otf
+        - asset: assets/fonts/GillSans/Gill Sans Bold.otf
+        - asset: assets/fonts/GillSans/Gill Sans Bold Italic.otf
+        - asset: assets/fonts/GillSans/Gill Sans Heavy.otf
+        - asset: assets/fonts/GillSans/Gill Sans Heavy Italic.otf
+          style: italic
+        - asset: assets/fonts/GillSans/Gill Sans Italic.otf
+          style: italic
+        - asset: assets/fonts/GillSans/Gill Sans Light.otf
+        - asset: assets/fonts/GillSans/Gill Sans Light Italic.otf
+        - asset: assets/fonts/GillSans/Gill Sans Medium.otf
+        - asset: assets/fonts/GillSans/Gill Sans Medium Italic.otf
+          style: italic
+        - asset: assets/fonts/GillSans/GillSans Condensed.otf
+        - asset: assets/fonts/GillSans/GillSans Condensed Bold.otf
